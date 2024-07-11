@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing:border-box ;
+}
+.bg-wyth{
+    background-color: linen;
+}
+.pd-auto{
+    padding: 1.5% 5%;
+    
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 8px 10px;
+    /* text-transform:capitalize ; */
+    font-size: 16px;
+    color: black;
+
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.jhay{
+    height: 300px;
+    text-align: center;
+    background-image: url('../jhay.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    padding: 20px;
+
+}
+.jhay div h3 {
+    font-size: 45px;
+    color: black;
+   /* float: right; */
+
+}
+.row {
+    display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     padding: 5px;
+}
+
+section{
+    padding: 0 10px;
+}
+section h1{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.profile {
+    height: 25rem;
+    width: 20rem;
+    padding: 10rem;
+}
+.profile img {
+    height:25rem;
+    width: 35rem;
+    margin-left: -9px;
+    /* padding: 0px 12px; */
+    margin-top: -4%;
+    border-radius: 1rem ;
+}
+
+td{
+    padding: 5px;
+}
+
+
+.about-card .text {
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+.con-bg {
+    background-color: lightgray;
+}
+.card {
+    padding: 8px 10px;
+    height: 20rem;
+    width: 20rem;
+    margin: 10px 12px;
+    /* border: 2px solid lightgray;
+    box-sizing: 2px black; */
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgb(155, 155, 212);
+    background-color: lightgray;
+}
+.section-bg{
+    background-color: white;
+}
+
+.card-footer img {
+    height:6rem;
+    width: 8rem;
+}
+.card-footer h6 {
+    font-size: 1.5rem;
+    color: rgb(65, 64, 64);
+}
+.card-footer p{
+    margin: 1rem 0;    
+}
+.card-footer p a{
+    text-decoration: none;
+    color: blue;
+}
+.card-footer p a:hover{
+    color:green ;
+    text-decoration: underline;
+}
+.next {
+    text-align: center;
+}
+.next h2 {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.card-contact{
+    padding: 20px 10px;
+    height: 25rem;
+    width: 35rem;
+    margin: 20px 12px;
+    border: 2px solid lightgray;
+    box-sizing: 2px black;
+    border: none;
+}
+.card-contact h6 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(65, 64, 64);
+}
+.card-contact .peace {
+    padding: 3rem 0rem;
+    /* margin: 2rem 0rem; */
+}
+.card-contact .peace2 {
+    /* text-decoration: underline solid blue; */
+    border-left: 5px solid red;
+    padding-left: 5px;
+   
+}
+.card-contact form fieldset input {
+    width: 30rem;
+    height: 1.5rem;
+    /* box-shadow: 1px 1px 10px rgb(176, 176, 189); */
+
+}
+.card-contact form fieldset textarea {
+    width: 30rem;
+    height: 10rem;
+    box-shadow: 1px 1px 10px rgb(122, 122, 139);
+
+}
+.card-contact form button {
+    background-color: rgb(93, 93, 240);
+    /* background-color: rgb(124, 123, 123); */
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    margin: 2rem 3px;
+    border-radius: 1rem;
+    border: none;
+}
+.card-contact form button:hover{
+    
+    background-color:rgb(0, 4, 230);
+    /* color: black; */
+}
+.card-contact form fieldset {
+    border: none;
+}
+.footer{
+    color: white;
+    padding: 3rem 0;
+    height: 10rem;
+    text-align: center;
+    background-color: rgb(136, 135, 135);
+}
+
